@@ -303,6 +303,7 @@ with col2:
 
 with col3:
     genesis_clicked = st.button("🚀  제네시스 FAQ 크롤링 시작", use_container_width=True)
+    
 # --- 결과 출력 영역 ---
 #반복되는 출력 로직을 함수로 만들면 코드가 깔끔해집니다.
 def display_results(df, filename):
