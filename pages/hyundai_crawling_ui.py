@@ -225,7 +225,7 @@ if hyundai_clicked:
         if not result_df.empty:
             now = datetime.now().strftime("%Y%m%d_%H%M")
             filename = f"hyundai_faq_{now}.csv"
-            display_results(result_df, "hyundai_faq_final.csv")
+            display_results(result_df, filename)
 
 if kia_clicked:
     with st.spinner("기아차 데이터를 수집 중입니다..."):
